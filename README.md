@@ -1,1 +1,19 @@
-# zf3-tcpdf
+# TCPDFModule
+
+A Zend Framework 3 module for incorporating TCPDF support.
+
+[![Build Status](https://travis-ci.org/vladmeh/zf3-tcpdf.svg?branch=master)](https://travis-ci.org/vladmeh/zf3-tcpdf)
+
+## Requirements
+
+* Zend Faramework 3
+* PHP v5.6 or 7.0
+
+## Installation
+
+Installation of TCPDFModule uses PHP Composer. For more information about PHP Composer, please visit the official [PHP Composer site](http://getcomposer.org/).
+
+```
+php composer.phar require vladmeh/zf3-tcpdf
+```
+
