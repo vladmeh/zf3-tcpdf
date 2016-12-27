@@ -1,7 +1,7 @@
 <?php
 namespace TCPDFModule\Tests\Factory;
 
-use TCPDFModule\Factory\TCPDFFactory;
+use TCPDFModule\TCPDFFactory;
 
 class TCPDFFactoryTest extends \PHPUnit_Framework_TestCase
 {
