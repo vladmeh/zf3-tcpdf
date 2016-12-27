@@ -7,7 +7,7 @@
  *
  */
 
-namespace TCPDFModule;
+namespace TCPDFModule\Factory;
 
 use Interop\Container\ContainerInterface;
 use Zend\ServiceManager\Factory\FactoryInterface;
