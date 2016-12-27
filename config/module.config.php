@@ -2,13 +2,13 @@
 
 namespace TCPDFModule;
 
-return array(
-    'service_manager' => array(
-        'shared' => array(
-            'TCPDF' => false
-        ),
-        'factories' => array(
-            'TCPDF'          => __NAMESPACE__ . '\Factory\TCPDFFactory',
-        )
-    ),
-);
+return [
+    'service_manager' => [
+        'factories' => [
+            \TCPDF::class => Factory\TCPDFFactory::class,
+        ],
+        'shared' => [
+            \TCPDF::class => false
+        ]
+    ],
+];
