@@ -1,19 +1,29 @@
 {
-  "name": "vladmeh/zf3-tcpdf",
-  "description": "A Zend Framework 3 module for incorporating TCPDF support.",
-  "keywords": ["pdf","tcpdf", "zf3"],
+  "name": "valerialevenets/zf3-tcpdf",
+  "description": "A Laminas module for incorporating TCPDF support.",
+  "keywords": ["pdf","tcpdf", "zf3", "laminas"],
   "type": "library",
   "license": "MIT",
   "authors": [
     {
       "name": "vladmeh",
       "email": "vladmeh@gmail.com"
+    },
+    {
+      "name": "Valeriia Levenets",
+      "email": "valeria.levenets94@gmail.com"
     }
   ],
   "require": {
-    "php": "^5.6 || ^7.0",
-    "tecnickcom/tcpdf": "^6.2",
-    "zendframework/zend-mvc": "^3.0"
+    "php": "^8.0",
+    "tecnickcom/tcpdf": "^6.4",
+    "laminas/laminas-mvc": "^3.2"
+  },
+  "require-dev": {
+    "laminas/laminas-developer-tools": "^2.1",
+    "squizlabs/php_codesniffer": "^2.8",
+    "phpunit/phpunit": "^9.3",
+    "jakub-onderka/php-parallel-lint": "^1.0"
   },
   "autoload": {
     "psr-4": {

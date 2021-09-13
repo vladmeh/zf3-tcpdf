@@ -9,14 +9,8 @@
         stopOnFailure="false"
         processIsolation="false"
         backupGlobals="false"
-        syntaxCheck="true"
 >
     <testsuite name="TacticianModule tests">
         <directory>./src/Tests</directory>
     </testsuite>
-    <filter>
-        <whitelist addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">./src</directory>
-        </whitelist>
-    </filter>
 </phpunit>

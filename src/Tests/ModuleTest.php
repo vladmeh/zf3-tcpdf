@@ -2,13 +2,14 @@
 
 namespace TCPDFModule\Tests;
 
+use PHPUnit\Framework\TestCase;
 use TCPDFModule\Module;
 
-class ModuleTest extends \PHPUnit_Framework_TestCase
+class ModuleTest extends TestCase
 {
     public function test_it_returns_config()
     {
         $module = new Module();
-        self::assertInternalType('array', $module->getConfig());
+        self::assertIsArray($module->getConfig());
     }
 }

@@ -1,12 +1,13 @@
 <?php
 namespace TCPDFModule\Tests\Factory;
 
+use PHPUnit\Framework\TestCase;
 use TCPDFModule\Factory\TCPDFFactory;
 
-class TCPDFFactoryTest extends \PHPUnit_Framework_TestCase
+class TCPDFFactoryTest extends TestCase
 {
-    private $factory;
-    public function setUp()
+    private TCPDFFactory $factory;
+    public function setUp(): void
     {
         $this->factory = new TCPDFFactory();
     }
