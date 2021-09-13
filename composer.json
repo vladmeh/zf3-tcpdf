@@ -1,5 +1,5 @@
 {
-  "name": "valerialevenets/zf3-tcpdf",
+  "name": "valerialevenets/laminas-tcpdf",
   "description": "A Laminas module for incorporating TCPDF support.",
   "keywords": ["pdf","tcpdf", "zf3", "laminas"],
   "type": "library",
