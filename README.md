@@ -14,7 +14,7 @@ A Zend Framework 3 module for incorporating TCPDF support.
 1. Installation of TCPDFModule uses PHP Composer. For more information about PHP Composer, please visit the official [PHP Composer site](http://getcomposer.org/).
 
     ```
-    php composer.phar require valerialevenets/zf3-tcpdf
+    php composer.phar require valerialevenets/laminas-tcpdf
     ```
 
 2. Open my/project/directory/config/modules.config.php and add the following key to your modules:
