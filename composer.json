@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "php": "^8.0",
+    "php": "^7.4 || ^8.0",
     "tecnickcom/tcpdf": "^6.4",
     "laminas/laminas-mvc": "^3.2"
   },
